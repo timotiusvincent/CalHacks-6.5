@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "15245883115",
+    "firebase_url": "https://loo-a2d36.firebaseio.com",
+    "project_id": "loo-a2d36",
+    "storage_bucket": "loo-a2d36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15245883115:android:42a58c7540fd5ce680f0ae",
+        "android_client_info": {
+          "package_name": "kalong.loo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15245883115-i2hdm4k5e98kgeu5l8hajuch147nv0kd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kalong.loo",
+            "certificate_hash": "1b97bc2c255d2af123c437617e5c721c074053c5"
+          }
+        },
+        {
+          "client_id": "15245883115-87tacas88c3p7m2jbutus409tasdkhli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCulSS-86xKV8hGT_NxAUHYBzJ6s1G7Ik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15245883115-87tacas88c3p7m2jbutus409tasdkhli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

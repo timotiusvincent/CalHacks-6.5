@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kalong.loo.ProfileActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="121dp"
+            android:layout_height="106dp"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/profileImage"
+            />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Username: "
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:textSize="20dp"
+            android:text="Email: "
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONFIRM" />
+
+        <Button
+            android:id="@+id/logoutBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout" />
+    </LinearLayout>
+
+</RelativeLayout>

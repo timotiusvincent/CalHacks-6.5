@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity">
+
+    <ImageView
+        android:id="@+id/frame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/frame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="121dp"
+        android:layout_height="106dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="148dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/login"
+        android:layout_width="237dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="367dp"
+        android:background="@drawable/sign_in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:layout_width="237dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="84dp"
+        android:fontFamily="Roboto"
+        android:gravity="center_horizontal|top"
+        android:lineHeight="11sp"
+        android:shadowDx="0"
+        android:shadowDy="4"
+        android:shadowRadius="2"
+        android:text="Welcome to Loo! \n Please Sign In using a Google Account"
+        android:textColor="#302727"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="556dp"
+        android:layout_marginEnd="104dp"
+        android:fontFamily="Roboto"
+        android:gravity="center_horizontal|top"
+        android:lineHeight="12sp"
+        android:shadowDx="0"
+        android:shadowDy="4"
+        android:shadowRadius="2"
+        android:text="Need Help? Call +1 925 090 9601"
+        android:textColor="#B1AEAE"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
